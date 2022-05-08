@@ -1,0 +1,48 @@
+   Unsere Eingaben + Rechnungen:
+   
+   
+    A = 	aufgenommener Alkohol in Gramm
+  	p = 	Körpergewicht in Kilogramm
+  	r = 	Reduktionsfaktor, der beim Mann 0,7 und bei der Frau 0,6 beträgt
+
+    BAK (in Promille) = A/(p x r)
+
+    Nun weiß man aber, dass nicht der gesamte zugeführte Alkohol in den Blutkreislauf gelangt,
+    sondern nur 70-90%.
+    Die restlichen 10-30% bezeichnet man als "Resorptionsdefizit".(15% abziehen)
+
+    Die Leber baut recht konstant etwa 8g Reinalkohol in der Stunde und somit 0,15 Promille ab
+
+    Unsere 4 Eingaben:
+    
+    Die Menge des zugeführten Alkohols
+    Das Körpergewicht
+    Das Geschlecht
+    Die Zeit, die seit Trinkbeginn verstrichen ist
+
+
+    
+    
+    Um den Alkoholgehalt eines Getränks zu berechnen, sind folgende Angaben nötig:
+
+    Die Menge des Getränks in Milliliter (ml)
+    Der Alkoholgehalt in Volumenprozent (Vol.-%)
+    Das spezifische Gewicht von Alkohol. Dieser Wert ist 0,8 g/ml.
+
+    Die Formel zur Berechnung des Alkoholgehalts eines Getränks lautet:
+
+    Alkoholgehalt (in Gramm reiner Alkohol) = Menge des Getränks (in ml)  x  (Vol.-% / 100)  x  0,8
+
+    Rechenbeispiele zum Standardglas:
+
+    1 Glas Bier (300 ml, 5 Vol.-%):
+    300 ml x (5/100) x 0,8 = 12 g Alkohol
+     
+    1 Glas Wein (125 ml, 12 Vol.-%):
+    125 ml x (12/100) x 0,8 = 12 g Alkohol
+     
+    1 Glas Sekt (100 ml, 12 Vol.-%):
+    100 ml x (12/100) x 0,8 = 9,6 g Alkohol
+     
+    1 Glas Schnaps (40 ml, 38 Vol.-%):
+    40 ml x (38/100) x 0,8 = 12,2 g Alkohol
