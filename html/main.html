@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Main Seite</title>
 </head>
 <body>
     <nav>
@@ -17,22 +17,25 @@
     </nav>
     <main>
         <h3>Eingaben zur Person:</h3>
-    <form action="">
+    <div>
        
-        <label for="gender">Geschlecht:</label>
+        <label>Geschlecht:</label>
         <input type="radio" id="male" name="gender" value="MALE">
         <label for="male">männlich</label>
         <input type="radio" id="female" name="gender" value="FEMALE">
         <label for="female">weiblich</label><br>
 
-        <br><label for="weight">Gewicht(in kg):</label>
-        <input type="number" id="weight" name="weightclass" maxlength="3" min="0"><br>
+        <br><label>Gewicht(in kg):</label>
+        <input type="number" id="weight" name="weightclass" max="442" min="0"><br>
 
         <br><label for="times">Wann wurde das letzte mal getrunken?</label>
         <input type="time" name="timezone" id="times">
 
-        <br><br><input type="submit" value="SUBMIT">
-    </form>
+        <br><br><button id="calculateButton">Promille berechnen</button>
+    </div>
+
+    <br><div id="result">Ergebnis:</div>
 </main>
+<script src="../js/main.js"></script>
 </body>
 </html>
